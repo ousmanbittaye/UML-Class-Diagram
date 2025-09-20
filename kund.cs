@@ -10,7 +10,6 @@ namespace UML_Class_Diagram
         
         public int telefonnummer;
         // private attributer
-        private string namn;
 
 
 
