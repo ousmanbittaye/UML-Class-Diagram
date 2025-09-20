@@ -9,8 +9,8 @@ namespace UML_Class_Diagram
         public int kundID;
         
         public int telefonnummer;
-        // private attributer
 
+        private string namn;    
 
 
         // här skapar vi metoder

@@ -13,14 +13,27 @@ namespace UML_Class_Diagram
             ozzy.betala();
 
 
-            // här testar vi klassen 
-            Bokning bokning1 = new Bokning();
-            bokning1.avboka();
-            bokning1.avslutahyra();
-            // här testar vi klassen Hyresavtal
-            Hyresavtal hyresavtal1 = new Bokning();
-            hyresavtal1.förlängaHyra();
-            hyresavtal1.avslutahyra();
+            // här testar vi klassen som abstract
+           
+            Hyresavtal bokning = new Bokning();
+            bokning.Avslutahyra();
+
+            // här testar vi klassen fordon 
+            Fordon volvo = new Bil();
+            volvo.Tillgänglighet();
+            volvo.Underhåll();
+            // här testar vi subklassen bil
+            Bil audi = new Bil();
+            audi.Tanka();
+            audi.Tvätta();
+
+            // här testar vi klassen betalning
+            Betalning betalning1 = new Betalning();
+            betalning1.GenomförBetalning();
+            betalning1.Återbetalning();
+
+
+
 
 
 
