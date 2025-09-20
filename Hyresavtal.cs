@@ -8,9 +8,9 @@ namespace UML_Class_Diagram
         // attributer
         public int kundnummer;
 
-        public DateTime startDatum;
+        public int startDatum;
 
-        public DateTime slutDatum;
+        public int slutDatum;
 
         public int prisPerDag;
 
